@@ -1,0 +1,68 @@
+.container {
+    min-width: 480px;
+}
+
+#col-ticket img{
+    width: 100%;
+}
+
+div#col-ticket {
+    max-width: 720px;
+}
+
+#col-ticket h1 {
+    font-size: 1.1rem;
+}
+
+#col-ticket h2 {
+    font-size: 0.8rem;
+}
+
+#ticket-region {
+    top: 13%;
+    left: 12%;
+}
+
+#ticket-name {
+    top: 30%;
+    left: 12%;
+}
+
+#ticket-surname {
+    top: 30%;
+    left: 50%;
+}
+
+#ticket-km {
+    top: 45%;
+    left: 12%;
+}
+
+#ticket-underage {
+    top: 60%;
+    left: 12%;
+}
+
+#ticket-over65 {
+    top: 60%;
+    left: 50%;
+}
+
+@media all and (min-width: 576px) {
+    #col-ticket h1 {
+        font-size: 1.7rem;
+    }
+    
+    #col-ticket h2 {
+        font-size: 1rem;
+    }
+}
+@media all and (min-width: 768px) {
+    #col-ticket h1 {
+        font-size: 2rem;
+    }
+    
+    #col-ticket h2 {
+        font-size: 1.6rem;
+    }
+}
